@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brechó Kitty - Contato</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+      <h1>Brechó Kitty</h1>
+      <nav class="menu">
+          <ul>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="contato.html">Contato</a></li>
+          </ul>
+      </nav>
+  </header>
+  <main>
+    <section class="contato">
+        <h2>ᓚᘏᗢ Contato</h2>
+            <p class="p-cont">Entre em contato conosco!</p>
+        <form action="processa.php" method="post">
+        <p>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" minlength="3" required>
+        </p>
+
+        <p>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+            <label for="assunto">Assunto</label>
+            <select id="assunto" name="assunto" required>
+            <option value="">Selecione</option>
+            <option value="duvida">Dúvida sobre produto</option>
+            <option value="orcamento">Tenho peças para doar/vender</option>
+            <option value="suporte">Suporte</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" maxlength="500" required></textarea>
+        </p>
+
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </p>
+    </form>
+    </section>
+  </main>
+  <footer>
+    <p>Dev do site: Isabela N. Amaral, GRR20262101</p>
+  </footer>
+</body>
+</html>
