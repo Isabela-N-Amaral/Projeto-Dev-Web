@@ -10,6 +10,7 @@ As entregas desse trabalho são feitas no GitLab e serão atualizadas conforme o
 ### Descrição do sistema
 
 *(o que a aplicação faz e como está organizada em arquivos e pastas)*
+<br>
 A aplicação consiste em um site para um brechó. O site terá a área pública (acesso dos usuários) que são: Cátalogo, busca e contato, e a área administrativa (acesso dos donos do negócio).
 <br> 
 As páginas (catalogo, contato, index e sobre) estão na pasta pages, a folha de estilos está na pasta css e as imagens utilizadas estão na pasta public.
